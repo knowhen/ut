@@ -49,12 +49,12 @@ public class HttpRequestLogFormatterTest {
         String date = "\\d{4}-\\d{2}-\\d{2}";
         String time = "\\d{2}:\\d{2}:\\d{2}";
 //        String timezone = "(-|\\+)\\d{4}";
-        String regex = date + ":" + time;
+        String regex = date + " " + time;
 //        + " " + timezone;
 
         DateFormat dateFormat = HttpRequestLogFormatter.dateFormat;
         String timestamp = dateFormat.format(new Date());
 
-        assertTrue("DateFormat should be \"yyyy-MM-dd:HH:mm:ss\"", timestamp.matches(regex));
+        assertTrue("DateFormat should be \"yyyy-MM-dd HH:mm:ss\"", timestamp.matches(regex));
     }
 }

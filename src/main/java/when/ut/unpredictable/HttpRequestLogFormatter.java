@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
  * @create: 2020-01-11  10:02
  **/
 public class HttpRequestLogFormatter {
-    public static DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd:HH:mm:ss");
+    public static DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     public String format(HttpServletRequest request, int httpStatusCode, int contentLength) {
         StringBuilder line = new StringBuilder();
