@@ -1,4 +1,4 @@
-package when.ut.unpredictable;
+package when.ut.unpredictable.time;
 
 public interface TimeSource {
 

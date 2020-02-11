@@ -1,7 +1,8 @@
-package when.ut.unpredictable;
+package when.ut.unpredictable.time;
 
 import org.junit.After;
 import org.junit.Test;
+import when.ut.unpredictable.time.SystemTime;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

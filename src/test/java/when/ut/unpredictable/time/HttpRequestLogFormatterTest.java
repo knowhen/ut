@@ -1,7 +1,9 @@
-package when.ut.unpredictable;
+package when.ut.unpredictable.time;
 
 import org.junit.After;
 import org.junit.Test;
+import when.ut.unpredictable.time.HttpRequestLogFormatter;
+import when.ut.unpredictable.time.SystemTime;
 
 import javax.servlet.http.HttpServletRequest;
 import java.text.DateFormat;
