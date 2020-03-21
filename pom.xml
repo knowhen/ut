@@ -60,6 +60,20 @@
             <version>0.19</version>
         </dependency>
 
+        <!--Swing test util-->
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-netbeans-modules-jemmy</artifactId>
+            <version>RELEASE113</version>
+        </dependency>
+
+        <!--Swing test util-->
+        <dependency>
+            <groupId>abbot</groupId>
+            <artifactId>abbot</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
